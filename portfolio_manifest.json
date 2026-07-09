@@ -1,0 +1,32 @@
+{
+  "target_role": "Junior аналитик-автоматизатор (n8n + ИИ-агенты)",
+  "main_case": {
+    "title": "Автоматический сбор контекста проекта для ИИ",
+    "files": [
+      "src/site_context_extractor/create_context.py",
+      "src/site_context_extractor/collect_project.py"
+    ],
+    "value": "Уменьшает ручное копирование файлов и готовит структурированный контекст для ChatGPT/Claude."
+  },
+  "supporting_cases": [
+    {
+      "title": "Аудит локального сайта перед сдачей",
+      "file": "src/website_auditor/check_links.py"
+    },
+    {
+      "title": "Оптимизация фронтенда и откат изменений",
+      "files": [
+        "src/frontend_optimizer/optimizer_frontend.py",
+        "src/frontend_optimizer/restore_source.py"
+      ]
+    },
+    {
+      "title": "GUI-автоматизация замены изображений",
+      "file": "src/image_automation/app.py"
+    },
+    {
+      "title": "Менеджер локальных Python-скриптов",
+      "file": "src/script_manager/script_manager.py"
+    }
+  ]
+}

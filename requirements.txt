@@ -1,0 +1,14 @@
+beautifulsoup4
+colorama
+cssutils
+customtkinter
+lxml
+pandas
+pillow
+pillow-avif-plugin
+pyqt6
+rembg
+requests
+selenium
+tkinterdnd2
+webdriver-manager
