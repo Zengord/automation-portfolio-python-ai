@@ -119,4 +119,4 @@ python src/frontend_optimizer/optimizer_frontend.py
 - тестовые HTML/CSS fixtures;
 - GitHub Actions для smoke-тестов;
 - конфигурацию через `.env.example` и YAML/JSON;
-- n8n workflow для запуска проверок по webhook или расписанию.
+- возможность запускать проверки через внешний workflow-инструмент, webhook или расписание.
